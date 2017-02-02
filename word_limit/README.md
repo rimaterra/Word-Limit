@@ -20,6 +20,11 @@ Permits you to limit the number of words in some text
 
 ## Change Log
 
+### 2.1 rk
+
+- Filter out HTML tags to avoid picking up partial tags
+- Allow paragraph and break tags
+
 ### 2.0
 
 - Updated plugin to be 3.0 compatible
