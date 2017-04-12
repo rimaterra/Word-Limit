@@ -50,7 +50,7 @@ class Word_limit {
 
 		$str = ($str == '') ? ee()->TMPL->tagdata : $str;
 		
-		$str = strip_tags($str, "<p><a><h1><h2><h3>");
+		$str = strip_tags($str, "<p><b><strong><em><i><a><h1><h2><h3>");
 
  		$this->return_data = ee()->functions->word_limiter($str, $total);
 	}

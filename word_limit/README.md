@@ -20,6 +20,10 @@ Permits you to limit the number of words in some text
 
 ## Change Log
 
+### 2.2 rk
+
+- Allow em, strong, b, i tags
+
 ### 2.1 rk
 
 - Filter out HTML tags to avoid picking up partial tags
